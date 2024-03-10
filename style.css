@@ -209,3 +209,60 @@ svg {
   color: #0ea5e9;
   border: solid #0ea5e9;
 }
+
+.main {
+  display: flex;
+  padding: 3rem 2rem;
+  height: 100vh;
+}
+
+.content {
+  flex-basis: 70%;
+}
+
+.content p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 35rem);
+  grid-template-rows: repeat(2, 20rem);
+  gap: 2rem;
+}
+
+.grid {
+  padding: 2rem;
+  border-left: 1rem solid orange;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid h2,
+.grid h3,
+.grid svg {
+  background-color: white;
+}
+
+.grid h3 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.grid .svg {
+  width: 12rem;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+}
+
+.aside {
+  flex-basis: 30%;
+}
